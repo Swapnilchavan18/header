@@ -26,7 +26,7 @@ require('./index.css').toString();
  * @license MIT
  * @version 2.0.0
  */
-class Header {
+class Blockquote {
   /**
    * Render plugin`s main Element and fill it with saved data
    *
@@ -49,7 +49,7 @@ class Header {
       block: this.api.styles.block,
       settingsButton: this.api.styles.settingsButton,
       settingsButtonActive: this.api.styles.settingsButtonActive,
-      wrapper: 'ce-header',
+      wrapper: 'md-block md-block-quote md-RichEditor-blockquote',
     };
 
     /**
@@ -531,4 +531,4 @@ class Header {
   }
 }
 
-module.exports = Header;
+module.exports = Blockquote;
